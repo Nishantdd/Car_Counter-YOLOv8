@@ -5,7 +5,7 @@ The script uses the SORT (Simple Online Real-time Tracking) algorithm to track v
 
 The code uses the OpenCV library for reading and displaying videos and images, and the cvzone library for drawing bounding boxes and text.
 
-**Requirements**\n
+**Requirements**\
 The following libraries are required to run the program:
 1. ultralytics
 2. cv2
