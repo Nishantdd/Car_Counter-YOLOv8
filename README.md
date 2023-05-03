@@ -21,6 +21,7 @@ Install the required libraries:
 **Download the YOLOv8 weights** and configuration file and **place them in a folder called "Yolo-Weights"** in the same directory as the program.
 
 Download the "mask_video.png" and "Graphics.png" files from the "Yolo-CarCounter" folder in this repository and place them in the same directory as the program.
+
 Note : You will have to create the mask_video.png file yourself for suitable results in case using a different video file than provided in repository.
 
 Modify the "limits" variable in the program to define the region where cars will be counted. The format is [y1, y2, x1, x2], where y1 is the top limit, y2 is the bottom limit, x1 is the left limit, and x2 is the right limit.
