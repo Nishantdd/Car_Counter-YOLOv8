@@ -6,8 +6,8 @@ from math import ceil
 from sort import *
 
 
-cap=cv2.VideoCapture("Images/video.mp4")
-model=YOLO("../Yolo-Weights/yolov8l.pt")
+cap=cv2.VideoCapture("Images/video1.mp4")
+model=YOLO("../Yolo-Weights/yolov8n.pt")
 
 classNames = ["person", "bicycle", "car", "motorbike", "aeroplane", "bus", "train", "truck", "boat", #Giving the class numbers a name to identify objects in custom bounding boxes
               "traffic light", "fire hydrant", "stop sign", "parking meter", "bench", "bird", "cat",
